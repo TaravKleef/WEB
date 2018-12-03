@@ -1,0 +1,125 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    background-color: #eaeaea;
+    ;
+    position: relative;
+}
+
+nav {
+    background-color: #d5ecf8;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav a {
+    float: inherit;
+    text-align: center;
+}
+
+.homebutton {
+    background-image: url(img/home.png);
+    width: 2em;
+}
+
+.zoeken {
+    background-image: url(img/zoek.png);
+    width: 2em;
+}
+
+.downloads {
+    background-image: url(img/download2.png);
+    width: 2em;
+}
+
+.persoon {
+    background-image: url(img/persoon.png);
+    width: 2em;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+header {
+    background-color: white;
+    color: #01497c;
+}
+
+#ret {
+    width: 10em;
+}
+
+#aanbevolen {
+    background-color: #01497c;
+    color: white;
+    width: 100%;
+}
+
+article {
+    background-color: white;
+    width: 90%;
+    text-align: left;
+    margin-left: 1em;
+    border-radius: 1em;
+    color: #01497c;
+    font-size: 14px;
+}
+
+article p {
+    margin: 1em;
+}
+
+article img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    object-position: center center;
+}
+
+article footer img {
+    width: 1.2em;
+    height: 1em;
+    border: 0.5em;
+    margin-right: 1em;
+}
+
+article footer {
+    color: #eaeaea;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+form {
+    margin-top: 1em;
+    background-color: white;
+    border-radius: 1em;
+}
+
+#filter {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+fieldset {
+    border: none;
+    margin: 1em;
+}
+
+legend {
+    18px;
+    color: #01497c;
+}
+
+input{
+   display: flex;
+    flex-direction: column;
+}

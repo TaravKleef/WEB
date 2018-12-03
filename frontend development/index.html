@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>verhalenwebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="index.html" class="homebutton"></a>
+            </li>
+            <li>
+                <a href="zoeken.html" class="zoeken"></a>
+            </li>
+            <li>
+                <a href="downloads.html" class="downloads"></a>
+            </li>
+            <li>
+                <a href="persoonsinfo.html" class="persoon"></a>
+            </li>
+        </ul>
+    </nav>
+        <header>
+        <img src="img/RET.png" alt="ret" id="ret">
+        <p>Welkom op de 99 verhalen website van RET</p>
+    </header>
+    <section id="aanbevolen">
+        <h1>Aanbevolen:</h1>
+        <a href="boekpagina">
+            <article>
+                <img src="img/wolken.jpg" alt="wolken">
+                <h2>Droom</h2>
+                <p>Slierten zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep...</p>
+                <button>download</button>
+                <footer>
+                    <img src="img/klok.png" alt="klok">5min
+                    <img src="img/hartje.png" alt="hart">15
+                </footer>
+            </article>
+        </a>
+        <!--        slider bolletjes-->
+    </section>
+    <form>
+        <button id="filter">Filter</button>
+        <fieldset>
+            <legend>Verhaallengte:</legend>
+            <input type="checkbox" name="genre" value="lang">Lang
+            <input type="checkbox" name="genre" value="Middel">Middel
+            <input type="checkbox" name="genre" value="Kort">Kort
+        </fieldset>
+        <fieldset>
+            <legend>Taal:</legend>
+            <input type="checkbox" name="genre" value="Nederlands">Nederlands
+            <input type="checkbox" name="genre" value="Engels">Engels
+            <input type="checkbox" name="genre" value="Frans">Frans
+            <h2>Sorteren op</h2>
+            <input type="radio" name="genre" value="alfabetisch" checked="checked"> Alfabetisch
+            <input type="radio" name="genre" value="oudnaarniew" checked="checked"> Oud naar nieuw
+            <input type="radio" name="genre" value="nieuwnaaroud" checked="checked"> Nieuw naar oud
+            <input type="radio" name="genre" value="populairiteit" checked="checked"> Populairiteit
+        </fieldset>
+        <button>toepassen</button>
+        <button>alles verwijderen</button>
+    </form>
+    <main>
+        <section>
+            <h1>99 verhalen</h1>
+            <article>
+                <img src="img/wolken.jpg" alt="wolken">
+                <h2>Droom</h2>
+                <p>Slierten zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep...</p>
+                <button>download</button>
+                <footer>
+                    <img src="img/klok.png" alt="klok">5min
+                    <img src="img/hartje.png" alt="hart">15
+                </footer>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
